@@ -1,0 +1,116 @@
+html {
+    font-family: 'Lilita One', cursive;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    margin: 0;
+    background-color: rgb(10, 10, 10);
+    height: 80px;
+}
+
+.navegacion {
+    margin: 0;
+}
+
+.navegacion img {
+    margin: 1rem ;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.navegacion a {
+    margin: 2rem;
+    color: #fefefe;
+    text-decoration: none;
+    float: right;
+    transition: color 2s ease;
+}
+
+.navegacion a:hover {
+    color: red;
+    text-shadow: 1rem 0.1rem 3rem red;
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+#inicio {
+    text-align: center;
+    height: 49rem;
+    color: rgb(255, 255, 255);
+    max-width:  ;
+    background-image: url(imagenes/background-image.jpg);
+}
+
+#inicio img {
+    margin: 1rem 1rem 1rem 0 ;
+    border-style: dotted;
+    border-radius: 20rem ;
+    padding: 2rem;
+    height: 15rem;
+}
+
+.inicio-content {
+    width: 400px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+#Habilidades {
+    padding: 70px 10px;
+    margin: 0;
+    text-align: center;
+    height: 20rem;
+    color: rgb(0, 0, 0);
+}
+
+.habilidades-content {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.habilidades-content img {
+    height: 120px;
+    padding: 70px 10px;
+
+}
+
+#proyectos {
+    color: white;
+    text-align: center;
+    height: 10rem;
+    background-image: url(imagenes/background_2.jpg);
+}
+
+.footer-container {
+    text-align: center ;
+    height: 100px;
+
+}
+
+.footer-container i {
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    color: black;
+}
+
+.footer-container i:hover {
+    color: rgb(255, 0, 170);
+}
+
+
+
+
+
+
+
+
+
+
+
